@@ -7,4 +7,4 @@ std::string exec(const char* cmd);
 std::string get_env_var( std::string const & key );
 std::string get_env_var( const char* key );
 
-#endif /* SYSTEM_H */
+#endif //SYSTEM_H
