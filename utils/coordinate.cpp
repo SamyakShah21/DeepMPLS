@@ -3,11 +3,11 @@
 
 namespace aalwines {
 
-    \\Using the 'Coordinate' class from "coordinate.h"	
+    //Using the 'Coordinate' class from "coordinate.h"	
     Coordinate::Coordinate(double latitude, double longitude) : _latitude(latitude), _longitude(longitude),
         _rad_lat(M_PI / 180 * latitude), _rad_long(M_PI / 180 * longitude) {}
 
-    \\adding to the distane_to function defined in the Coordinate class in "coordinate.h"	
+    //adding to the distance_to function defined in the Coordinate class in "coordinate.h"	
     double Coordinate::distance_to(const Coordinate& other) const {
         // Using the Haversine's distance formula.
         return 2* _R_km  * std::asin(std::sqrt(std::pow((_rad_lat - other._rad_lat)/2, 2) +
