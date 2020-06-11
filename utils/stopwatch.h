@@ -1,4 +1,4 @@
-\\creating the stopwatch header file
+//creating the stopwatch header file
 
 #ifndef STOPWATCH_H
 #define STOPWATCH_H
